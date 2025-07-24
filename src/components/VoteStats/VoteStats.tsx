@@ -1,5 +1,5 @@
 import css from "./VoteStats.module.css";
-import React from "react";
+
 interface VoteStatsProps {
   votes: {
     good: number;
