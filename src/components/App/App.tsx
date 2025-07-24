@@ -5,7 +5,7 @@ import VoteOptions from "../VoteOptions/VoteOptions";
 import { useState } from "react";
 import type { Votes, VoteType } from "../../types/votes";
 import VoteStats from "../VoteStats/VoteStats";
-import Notification from "./Notification/Notification";
+import Notification from "../Notification/Notification";
 
 export default function App() {
   const [votes, setVotes] = useState<Votes>({
