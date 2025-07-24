@@ -1,16 +1,5 @@
 import css from "./VoteStats.module.css";
-
-interface VoteStatsProps {
-  votes: {
-    good: number;
-    neutral: number;
-    bad: number;
-  };
-  totalVotes: number;
-  positiveRate: number;
-}
 import React from "react";
-
 interface VoteStatsProps {
   votes: {
     good: number;
